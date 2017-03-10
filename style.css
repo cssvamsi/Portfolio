@@ -32,7 +32,7 @@ html{
     color: #abafb2;
 }
 .navbar-default .navbar-nav>li>a:visited{
-     color: #abafb2;
+     color: #abafb2 !important;
 }
 .navbar-default .navbar-nav>li>a:hover
 {
@@ -44,9 +44,6 @@ html{
 .navbar-default .navbar-brand{
     color:white;
     margin-right: 40px;
-}
-.navbar-default .navbar-brand:hover{
-    color:#c7b5d6;
 }
 .navbar-default .navbar-right>li>a>{
     width: 10px;
@@ -254,10 +251,11 @@ html{
     
 }
 .projects img{
-    height:100px;
-    width:100px;
+    height:60px;
+    width:60px;
     border: 1px ;
     margin-top: 10px;
+    border-radius: 0;
 }
 .education .projects{
      font-size: 14px;
