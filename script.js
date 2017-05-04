@@ -10,7 +10,7 @@ $(document).ready(function(){
           if ($target.length) {
             var targetOffset = $target.offset().top;
             $('html,body')
-            .animate({scrollTop: targetOffset}, 1500);
+            .animate({scrollTop: targetOffset}, 1000);
            return false;
           }
         }
